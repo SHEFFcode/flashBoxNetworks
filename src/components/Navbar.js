@@ -1,27 +1,30 @@
 import React, { Component } from 'react';
-i
 
 export default class Navbar extends Component {
   render() {
     return (
-      <Navbar>
-        <Navbar.Header>
-          <Navbar.Brand>
-            <a href="#">React-Bootstrap</a>
-          </Navbar.Brand>
-        </Navbar.Header>
-        <Nav>
-          <NavItem eventKey={1} href="#">Link</NavItem>
-          <NavItem eventKey={2} href="#">Link</NavItem>
-          <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-            <MenuItem eventKey={3.1}>Action</MenuItem>
-            <MenuItem eventKey={3.2}>Another action</MenuItem>
-            <MenuItem eventKey={3.3}>Something else here</MenuItem>
-            <MenuItem divider />
-            <MenuItem eventKey={3.3}>Separated link</MenuItem>
-          </NavDropdown>
-        </Nav>
-      </Navbar>
+      <nav className="navbar navbar-custom navbar-fixed-top">
+        <div className="container">
+          <div className="navbar-header page-scroll">
+            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+            </button>
+            <a className="navbar-brand" href="#">FlashBox Networks</a>
+          </div>
+          <div id="navbar" className="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul className="nav navbar-nav">
+              <li className="hidden"><a href="#page-top"></a></li>
+              <li className="page-scroll"><a href="#why">Why us?</a></li>
+              <li className="page-scroll"><a href="#who">Who are we?</a></li>
+              <li className="page-scroll"><a href="#clients">Bars</a></li>
+              <li className="page-scroll"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     );
   }
 };
