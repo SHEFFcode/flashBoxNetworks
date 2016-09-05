@@ -7,7 +7,7 @@ export default class Contract extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2>Contact Flashbox</h2>
+              <h2 className="padding">Contact Flashbox</h2>
             </div>
           </div>
           <div className="row">

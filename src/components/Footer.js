@@ -43,7 +43,7 @@ export default class Footer extends Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                Copyright &copy; Your Website 2016
+                Copyright &copy; Flashbox Networks 2016
               </div>
             </div>
           </div>
