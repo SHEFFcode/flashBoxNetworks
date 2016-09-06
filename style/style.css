@@ -28,7 +28,7 @@ h6 {
 }
 
 @media (max-width: 991px) and (min-width: 767px) {
-    .white {
+    .small-name {
         margin-top: 110px;
     }
 }
@@ -295,6 +295,12 @@ ul li {
     font-size: 0.7em;
 }
 
+@media (max-width: 767px) {
+    ul li {
+        font-size: 1em;
+    }
+}
+
 .fa-huge {
     margin-top: 0.5em;
     font-size: 80px;
@@ -333,6 +339,10 @@ a:hover, a:focus {
     display: none;
 }
 
+.small-name {
+    display: none;
+}
+
 @media (max-width: 991px) {
     #small {
         display: block;
@@ -341,4 +351,9 @@ a:hover, a:focus {
     #big {
         display: none;
     }
+
+    .small-name {
+        display: block;
+    }
+
 }

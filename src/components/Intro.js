@@ -6,6 +6,11 @@ export default class Intro extends Component {
       <section className="intro">
         <div className="intro-body">
           <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <p className="small-name spy blue">Flashbox Networks</p>
+              </div>
+            </div>
             <div className="row white">
               <div className="col-md-4 pillars left">
                 <p className="intro-text"><p className="intro-text"><strong className="spy"><i className="fa fa-cloud"></i> Cloud</strong></p></p>
