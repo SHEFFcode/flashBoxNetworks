@@ -45,7 +45,7 @@ export default class Contract extends Component {
                   <div id="success"></div>
                   <div className="row">
                     <div className="form-group col-xs-12">
-                      <button type="submit" className="btn btn-success btn-lg">Send</button>
+                      <button type="submit" className="btn btn-success btn-lg spy">Send</button>
                     </div>
                   </div>
               </form>

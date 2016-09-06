@@ -12,12 +12,14 @@ export default class Navbar extends Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#"><img className="logo-img" src="style/img/FlashboxNetworks.png" alt="flashobx"/></a>
+            <a className="navbar-brand" id="big" href="#"><img className="logo-img" src="style/img/FlashboxNetworks.png" alt="flashobx"/></a>
+            <a className="navbar-brand" id="small" href="#"><img className="logo-img" src="style/img/flashbox.png" alt="flashobx"/></a>
           </div>
           <div id="navbar" className="collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul className="nav navbar-nav">
               <li className="hidden"><a href="#page-top"></a></li>
-              <li className="page-scroll"><a href="#contact"><i className="lead">Contact</i></a></li>
+              <li className="page-scroll"><a href="/brochure.pdf"><i className="lead blue">Brochure</i></a></li>
+              <li className="page-scroll"><a href="#contact"><i className="lead red">Contact</i></a></li>
             </ul>
           </div>
         </div>

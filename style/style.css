@@ -314,6 +314,31 @@ a:hover, a:focus {
 }
 
 .lead {
-    color: #FF3300;
     font-family: 'Spy', sans-serif;
+}
+
+.red {
+    color: #FF3300;
+}
+
+.blue {
+    color: #27408D;
+}
+
+.green {
+    color: #8CC63E;
+}
+
+#small {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    #small {
+        display: block;
+    }
+
+    #big {
+        display: none;
+    }
 }
