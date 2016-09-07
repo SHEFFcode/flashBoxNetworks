@@ -935,7 +935,7 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $.ajax({
-        url: "http://localhost:7000/contact",
+        url: "http://flashbox.herokuapp.com/contact",
         type: "POST",
         headers: "Access-Control-Allow-Origin",
         data: JSON.stringify({

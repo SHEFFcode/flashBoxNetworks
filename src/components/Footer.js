@@ -28,7 +28,7 @@ export default class Footer extends Component {
               </div>
               <div className="footer-col col-md-4">
                 <h3 className="spy">Email</h3>
-                <p><a href="mailto:marketing@flashboxnetworks.com">marketing@flashboxnetworks.com</a></p>
+                <p><a href="mailto:sales@flashboxnetworks.com">sales@flashboxnetworks.com</a></p>
               </div>
             </div>
           </div>
